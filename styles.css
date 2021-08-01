@@ -1,8 +1,7 @@
 /*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
+TODO: delete dead code
+      remove copypaste code
+      make rubber layout
 */
 
 *{
@@ -19,7 +18,7 @@ body {
     background:
     radial-gradient(at 60% 40%, red 15%, yellow 60%, #1D5 100%)
     radial-gradient(at 73% 41%, red 3%, yellow 100%)*/
-    background: aqua;
+    background: black;
     width: 800px;
     height: 800px;
     z-index: 1;
@@ -126,7 +125,7 @@ body {
 #outer_c{
     z-index: 5;
     text-align: center;
-    left: 355px;
+    left: 350px;
     top: 25px;
     width: 100px;
     background-color: white;
@@ -233,7 +232,7 @@ body {
 #outer_p{
     z-index: 5;
     text-align: center;
-    left: 355px;
+    left: 350px;
     bottom: 25px;
 
     width: 100px;
