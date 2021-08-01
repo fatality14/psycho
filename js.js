@@ -1,1 +1,276 @@
-"use strict";window.onload=function(){var o="rgb(130,0,0)",r="rgb(213,171,0)",e="rgb(0,126,0)",l="rgb(210,84,0)",n="white",t="black";function u(){outer_c.style.backgroundColor=n,outer_c.style.color=t,outer_a.style.backgroundColor=n,outer_a.style.color=t,outer_i.style.backgroundColor=n,outer_i.style.color=t,outer_e.style.backgroundColor=n,outer_e.style.color=t,outer_p.style.backgroundColor=n,outer_p.style.color=t,outer_k.style.backgroundColor=n,outer_k.style.color=t,outer_g.style.backgroundColor=n,outer_g.style.color=t,outer_d.style.backgroundColor=n,outer_d.style.color=t,inner_v.style.backgroundColor=n,inner_v.style.color=t,inner_r.style.backgroundColor=n,inner_r.style.color=t,inner_s.style.backgroundColor=n,inner_s.style.color=t,inner_h.style.backgroundColor=n,inner_h.style.color=t}outer_c.onclick=outer_cw.onclick=function(){u(),outer_c.style.backgroundColor=t,outer_c.style.color=n,outer_cw.style.backgroundColor=n,outer_aw.style.backgroundColor=o,outer_iw.style.backgroundColor=r,outer_ew.style.backgroundColor=e,outer_pw.style.backgroundColor=e,outer_kw.style.backgroundColor=e,outer_gw.style.backgroundColor=r,outer_dw.style.backgroundColor=o,inner_vw.style.backgroundColor=l,inner_rw.style.backgroundColor=r,inner_sw.style.backgroundColor=r,inner_hw.style.backgroundColor=l},outer_a.onclick=outer_aw.onclick=function(){u(),outer_a.style.backgroundColor=t,outer_a.style.color=n,outer_cw.style.backgroundColor=o,outer_aw.style.backgroundColor=n,outer_iw.style.backgroundColor=o,outer_ew.style.backgroundColor=r,outer_pw.style.backgroundColor=e,outer_kw.style.backgroundColor=e,outer_gw.style.backgroundColor=e,outer_dw.style.backgroundColor=r,inner_vw.style.backgroundColor=o,inner_rw.style.backgroundColor=l,inner_sw.style.backgroundColor=r,inner_hw.style.backgroundColor=l},outer_i.onclick=outer_iw.onclick=function(){u(),outer_i.style.backgroundColor=t,outer_i.style.color=n,outer_cw.style.backgroundColor=r,outer_aw.style.backgroundColor=o,outer_iw.style.backgroundColor=n,outer_ew.style.backgroundColor=o,outer_pw.style.backgroundColor=r,outer_kw.style.backgroundColor=e,outer_gw.style.backgroundColor=e,outer_dw.style.backgroundColor=e,inner_vw.style.backgroundColor=l,inner_rw.style.backgroundColor=l,inner_sw.style.backgroundColor=r,inner_hw.style.backgroundColor=r},outer_e.onclick=outer_ew.onclick=function(){u(),outer_e.style.backgroundColor=t,outer_e.style.color=n,outer_cw.style.backgroundColor=e,outer_aw.style.backgroundColor=r,outer_iw.style.backgroundColor=o,outer_ew.style.backgroundColor=n,outer_pw.style.backgroundColor=o,outer_kw.style.backgroundColor=r,outer_gw.style.backgroundColor=e,outer_dw.style.backgroundColor=e,inner_vw.style.backgroundColor=l,inner_rw.style.backgroundColor=o,inner_sw.style.backgroundColor=l,inner_hw.style.backgroundColor=r},outer_p.onclick=outer_pw.onclick=function(){u(),outer_p.style.backgroundColor=t,outer_p.style.color=n,outer_cw.style.backgroundColor=e,outer_aw.style.backgroundColor=e,outer_iw.style.backgroundColor=r,outer_ew.style.backgroundColor=o,outer_pw.style.backgroundColor=n,outer_kw.style.backgroundColor=o,outer_gw.style.backgroundColor=r,outer_dw.style.backgroundColor=e,inner_vw.style.backgroundColor=r,inner_rw.style.backgroundColor=l,inner_sw.style.backgroundColor=l,inner_hw.style.backgroundColor=r},outer_k.onclick=outer_kw.onclick=function(){u(),outer_k.style.backgroundColor=t,outer_k.style.color=n,outer_cw.style.backgroundColor=e,outer_aw.style.backgroundColor=e,outer_iw.style.backgroundColor=e,outer_ew.style.backgroundColor=r,outer_pw.style.backgroundColor=o,outer_kw.style.backgroundColor=n,outer_gw.style.backgroundColor=o,outer_dw.style.backgroundColor=r,inner_vw.style.backgroundColor=r,inner_rw.style.backgroundColor=l,inner_sw.style.backgroundColor=o,inner_hw.style.backgroundColor=l},outer_g.onclick=outer_gw.onclick=function(){u(),outer_g.style.backgroundColor=t,outer_g.style.color=n,outer_cw.style.backgroundColor=r,outer_aw.style.backgroundColor=e,outer_iw.style.backgroundColor=e,outer_ew.style.backgroundColor=e,outer_pw.style.backgroundColor=r,outer_kw.style.backgroundColor=o,outer_gw.style.backgroundColor=n,outer_dw.style.backgroundColor=o,inner_vw.style.backgroundColor=r,inner_rw.style.backgroundColor=r,inner_sw.style.backgroundColor=l,inner_hw.style.backgroundColor=l},outer_d.onclick=outer_dw.onclick=function(){u(),outer_d.style.backgroundColor=t,outer_d.style.color=n,outer_cw.style.backgroundColor=o,outer_aw.style.backgroundColor=r,outer_iw.style.backgroundColor=e,outer_ew.style.backgroundColor=e,outer_pw.style.backgroundColor=e,outer_kw.style.backgroundColor=r,outer_gw.style.backgroundColor=o,outer_dw.style.backgroundColor=n,inner_vw.style.backgroundColor=l,inner_rw.style.backgroundColor=r,inner_sw.style.backgroundColor=l,inner_hw.style.backgroundColor=o},inner_v.onclick=inner_vw.onclick=function(){u(),inner_v.style.backgroundColor=t,inner_v.style.color=n,outer_cw.style.backgroundColor=l,outer_aw.style.backgroundColor=o,outer_iw.style.backgroundColor=l,outer_ew.style.backgroundColor=l,outer_pw.style.backgroundColor=r,outer_kw.style.backgroundColor=r,outer_gw.style.backgroundColor=r,outer_dw.style.backgroundColor=l,inner_vw.style.backgroundColor=n,inner_rw.style.backgroundColor=o,inner_sw.style.backgroundColor=r,inner_hw.style.backgroundColor=o},inner_r.onclick=inner_rw.onclick=function(){u(),inner_r.style.backgroundColor=t,inner_r.style.color=n,outer_cw.style.backgroundColor=r,outer_aw.style.backgroundColor=l,outer_iw.style.backgroundColor=l,outer_ew.style.backgroundColor=o,outer_pw.style.backgroundColor=l,outer_kw.style.backgroundColor=l,outer_gw.style.backgroundColor=r,outer_dw.style.backgroundColor=r,inner_vw.style.backgroundColor=o,inner_rw.style.backgroundColor=n,inner_sw.style.backgroundColor=o,inner_hw.style.backgroundColor=r},inner_s.onclick=inner_sw.onclick=function(){u(),inner_s.style.backgroundColor=t,inner_s.style.color=n,outer_cw.style.backgroundColor=r,outer_aw.style.backgroundColor=r,outer_iw.style.backgroundColor=r,outer_ew.style.backgroundColor=l,outer_pw.style.backgroundColor=l,outer_kw.style.backgroundColor=o,outer_gw.style.backgroundColor=l,outer_dw.style.backgroundColor=l,inner_vw.style.backgroundColor=r,inner_rw.style.backgroundColor=o,inner_sw.style.backgroundColor=n,inner_hw.style.backgroundColor=o},inner_h.onclick=inner_hw.onclick=function(){u(),inner_h.style.backgroundColor=t,inner_h.style.color=n,outer_cw.style.backgroundColor=l,outer_aw.style.backgroundColor=l,outer_iw.style.backgroundColor=r,outer_ew.style.backgroundColor=r,outer_pw.style.backgroundColor=r,outer_kw.style.backgroundColor=l,outer_gw.style.backgroundColor=l,outer_dw.style.backgroundColor=o,inner_vw.style.backgroundColor=o,inner_rw.style.backgroundColor=r,inner_sw.style.backgroundColor=o,inner_hw.style.backgroundColor=n}};
+'use strict'
+window.onload = function () {
+    let r = 'rgb(130,0,0)';
+    let y = 'rgb(213,171,0)';
+    let g = 'rgb(0,126,0)';
+    let o = 'rgb(210,84,0)';
+    let w = 'white';
+    let b = 'black';
+
+    function setDefaultFontStyle() {
+        outer_c.style.backgroundColor = w;
+        outer_c.style.color = b;
+        outer_a.style.backgroundColor = w;
+        outer_a.style.color = b;
+        outer_i.style.backgroundColor = w;
+        outer_i.style.color = b;
+        outer_e.style.backgroundColor = w;
+        outer_e.style.color = b;
+        outer_p.style.backgroundColor = w;
+        outer_p.style.color = b;
+        outer_k.style.backgroundColor = w;
+        outer_k.style.color = b;
+        outer_g.style.backgroundColor = w;
+        outer_g.style.color = b;
+        outer_d.style.backgroundColor = w;
+        outer_d.style.color = b;
+        inner_v.style.backgroundColor = w;
+        inner_v.style.color = b;
+        inner_r.style.backgroundColor = w;
+        inner_r.style.color = b;
+        inner_s.style.backgroundColor = w;
+        inner_s.style.color = b;
+        inner_h.style.backgroundColor = w;
+        inner_h.style.color = b;
+    }
+
+    outer_c.onclick = outer_cw.onclick = function () {
+        setDefaultFontStyle();
+        outer_c.style.backgroundColor = b;
+        outer_c.style.color = w;
+
+        outer_cw.style.backgroundColor = w;
+        outer_aw.style.backgroundColor = r;
+        outer_iw.style.backgroundColor = y;
+        outer_ew.style.backgroundColor = g;
+        outer_pw.style.backgroundColor = g;
+        outer_kw.style.backgroundColor = g;
+        outer_gw.style.backgroundColor = y;
+        outer_dw.style.backgroundColor = r;
+
+        inner_vw.style.backgroundColor = o;
+        inner_rw.style.backgroundColor = y;
+        inner_sw.style.backgroundColor = y;
+        inner_hw.style.backgroundColor = o;
+    };
+
+    outer_a.onclick = outer_aw.onclick = function () {
+        setDefaultFontStyle();
+        outer_a.style.backgroundColor = b;
+        outer_a.style.color = w;
+
+        outer_cw.style.backgroundColor = r;
+        outer_aw.style.backgroundColor = w;
+        outer_iw.style.backgroundColor = r;
+        outer_ew.style.backgroundColor = y;
+        outer_pw.style.backgroundColor = g;
+        outer_kw.style.backgroundColor = g;
+        outer_gw.style.backgroundColor = g;
+        outer_dw.style.backgroundColor = y;
+
+        inner_vw.style.backgroundColor = r;
+        inner_rw.style.backgroundColor = o;
+        inner_sw.style.backgroundColor = y;
+        inner_hw.style.backgroundColor = o;
+    };
+
+    outer_i.onclick = outer_iw.onclick = function () {
+        setDefaultFontStyle();
+        outer_i.style.backgroundColor = b;
+        outer_i.style.color = w;
+
+        outer_cw.style.backgroundColor = y;
+        outer_aw.style.backgroundColor = r;
+        outer_iw.style.backgroundColor = w;
+        outer_ew.style.backgroundColor = r;
+        outer_pw.style.backgroundColor = y;
+        outer_kw.style.backgroundColor = g;
+        outer_gw.style.backgroundColor = g;
+        outer_dw.style.backgroundColor = g;
+
+        inner_vw.style.backgroundColor = o;
+        inner_rw.style.backgroundColor = o;
+        inner_sw.style.backgroundColor = y;
+        inner_hw.style.backgroundColor = y;
+    };
+
+    outer_e.onclick = outer_ew.onclick = function () {
+        setDefaultFontStyle();
+        outer_e.style.backgroundColor = b;
+        outer_e.style.color = w;
+
+        outer_cw.style.backgroundColor = g;
+        outer_aw.style.backgroundColor = y;
+        outer_iw.style.backgroundColor = r;
+        outer_ew.style.backgroundColor = w;
+        outer_pw.style.backgroundColor = r;
+        outer_kw.style.backgroundColor = y;
+        outer_gw.style.backgroundColor = g;
+        outer_dw.style.backgroundColor = g;
+
+        inner_vw.style.backgroundColor = o;
+        inner_rw.style.backgroundColor = r;
+        inner_sw.style.backgroundColor = o;
+        inner_hw.style.backgroundColor = y;
+    };
+
+    outer_p.onclick = outer_pw.onclick = function () {
+        setDefaultFontStyle();
+        outer_p.style.backgroundColor = b;
+        outer_p.style.color = w;
+
+        outer_cw.style.backgroundColor = g;
+        outer_aw.style.backgroundColor = g;
+        outer_iw.style.backgroundColor = y;
+        outer_ew.style.backgroundColor = r;
+        outer_pw.style.backgroundColor = w;
+        outer_kw.style.backgroundColor = r;
+        outer_gw.style.backgroundColor = y;
+        outer_dw.style.backgroundColor = g;
+
+        inner_vw.style.backgroundColor = y;
+        inner_rw.style.backgroundColor = o;
+        inner_sw.style.backgroundColor = o;
+        inner_hw.style.backgroundColor = y;
+    };
+
+    outer_k.onclick = outer_kw.onclick = function () {
+        setDefaultFontStyle();
+        outer_k.style.backgroundColor = b;
+        outer_k.style.color = w;
+
+        outer_cw.style.backgroundColor = g;
+        outer_aw.style.backgroundColor = g;
+        outer_iw.style.backgroundColor = g;
+        outer_ew.style.backgroundColor = y;
+        outer_pw.style.backgroundColor = r;
+        outer_kw.style.backgroundColor = w;
+        outer_gw.style.backgroundColor = r;
+        outer_dw.style.backgroundColor = y;
+
+        inner_vw.style.backgroundColor = y;
+        inner_rw.style.backgroundColor = o;
+        inner_sw.style.backgroundColor = r;
+        inner_hw.style.backgroundColor = o;
+    };
+
+    outer_g.onclick = outer_gw.onclick = function () {
+        setDefaultFontStyle();
+        outer_g.style.backgroundColor = b;
+        outer_g.style.color = w;
+
+        outer_cw.style.backgroundColor = y;
+        outer_aw.style.backgroundColor = g;
+        outer_iw.style.backgroundColor = g;
+        outer_ew.style.backgroundColor = g;
+        outer_pw.style.backgroundColor = y;
+        outer_kw.style.backgroundColor = r;
+        outer_gw.style.backgroundColor = w;
+        outer_dw.style.backgroundColor = r;
+
+        inner_vw.style.backgroundColor = y;
+        inner_rw.style.backgroundColor = y;
+        inner_sw.style.backgroundColor = o;
+        inner_hw.style.backgroundColor = o;
+    };
+
+    outer_d.onclick = outer_dw.onclick = function () {
+        setDefaultFontStyle();
+        outer_d.style.backgroundColor = b;
+        outer_d.style.color = w;
+
+        outer_cw.style.backgroundColor = r;
+        outer_aw.style.backgroundColor = y;
+        outer_iw.style.backgroundColor = g;
+        outer_ew.style.backgroundColor = g;
+        outer_pw.style.backgroundColor = g;
+        outer_kw.style.backgroundColor = y;
+        outer_gw.style.backgroundColor = r;
+        outer_dw.style.backgroundColor = w;
+
+        inner_vw.style.backgroundColor = o;
+        inner_rw.style.backgroundColor = y;
+        inner_sw.style.backgroundColor = o;
+        inner_hw.style.backgroundColor = r;
+    };
+
+    inner_v.onclick = inner_vw.onclick = function () {
+        setDefaultFontStyle();
+        inner_v.style.backgroundColor = b;
+        inner_v.style.color = w;
+
+        outer_cw.style.backgroundColor = o;
+        outer_aw.style.backgroundColor = r;
+        outer_iw.style.backgroundColor = o;
+        outer_ew.style.backgroundColor = o;
+        outer_pw.style.backgroundColor = y;
+        outer_kw.style.backgroundColor = y;
+        outer_gw.style.backgroundColor = y;
+        outer_dw.style.backgroundColor = o;
+
+        inner_vw.style.backgroundColor = w;
+        inner_rw.style.backgroundColor = r;
+        inner_sw.style.backgroundColor = y;
+        inner_hw.style.backgroundColor = r;
+    };
+
+    inner_r.onclick = inner_rw.onclick = function () {
+        setDefaultFontStyle();
+        inner_r.style.backgroundColor = b;
+        inner_r.style.color = w;
+
+        outer_cw.style.backgroundColor = y;
+        outer_aw.style.backgroundColor = o;
+        outer_iw.style.backgroundColor = o;
+        outer_ew.style.backgroundColor = r;
+        outer_pw.style.backgroundColor = o;
+        outer_kw.style.backgroundColor = o;
+        outer_gw.style.backgroundColor = y;
+        outer_dw.style.backgroundColor = y;
+
+        inner_vw.style.backgroundColor = r;
+        inner_rw.style.backgroundColor = w;
+        inner_sw.style.backgroundColor = r;
+        inner_hw.style.backgroundColor = y;
+    };
+
+    inner_s.onclick = inner_sw.onclick = function () {
+        setDefaultFontStyle();
+        inner_s.style.backgroundColor = b;
+        inner_s.style.color = w;
+
+        outer_cw.style.backgroundColor = y;
+        outer_aw.style.backgroundColor = y;
+        outer_iw.style.backgroundColor = y;
+        outer_ew.style.backgroundColor = o;
+        outer_pw.style.backgroundColor = o;
+        outer_kw.style.backgroundColor = r;
+        outer_gw.style.backgroundColor = o;
+        outer_dw.style.backgroundColor = o;
+
+        inner_vw.style.backgroundColor = y;
+        inner_rw.style.backgroundColor = r;
+        inner_sw.style.backgroundColor = w;
+        inner_hw.style.backgroundColor = r;
+    };
+
+    inner_h.onclick = inner_hw.onclick = function () {
+        setDefaultFontStyle();
+        inner_h.style.backgroundColor = b;
+        inner_h.style.color = w;
+
+        outer_cw.style.backgroundColor = o;
+        outer_aw.style.backgroundColor = o;
+        outer_iw.style.backgroundColor = y;
+        outer_ew.style.backgroundColor = y;
+        outer_pw.style.backgroundColor = y;
+        outer_kw.style.backgroundColor = o;
+        outer_gw.style.backgroundColor = o;
+        outer_dw.style.backgroundColor = r;
+
+        inner_vw.style.backgroundColor = r;
+        inner_rw.style.backgroundColor = y;
+        inner_sw.style.backgroundColor = r;
+        inner_hw.style.backgroundColor = w;
+    };
+}
