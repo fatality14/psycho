@@ -1,5 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 *{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 body {
     margin: 50px;
@@ -23,7 +31,9 @@ body {
     font-weight: bold;
     font-family: Sans-serif;
 
-    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+
+            clip-path: circle(50% at 50% 50%);
 
     left: 5px;
     top: 5px;
@@ -37,7 +47,9 @@ body {
     border-radius: 50%;
     position: absolute;
 
-    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+
+            clip-path: circle(50% at 50% 50%);
 }
 
 #inner_b{
@@ -51,7 +63,8 @@ body {
     position: absolute;
 
     background: black;
-    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
 }
 #inner{
     width: 460px;
@@ -66,24 +79,33 @@ body {
 
     font-size: 60px;
 
-    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+
+            clip-path: circle(50% at 50% 50%);
 }
 
 [id^=outer_]{
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     position:absolute;
     width: 100px;
     height: 100px;
     vertical-align: middle;
 }
 [id^=inner_]{
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     position:absolute;
     width: 100px;
 }
 
 #outer_cw{
-    clip-path: polygon(50% 100%, 93% 0, 7% 0);
+    -webkit-clip-path: polygon(50% 100%, 93% 0, 7% 0);
+            clip-path: polygon(50% 100%, 93% 0, 7% 0);
     width: 390px;
     height: 390px;
     left: 200px;
@@ -92,7 +114,8 @@ body {
     z-index: 4;
 }
 #outer_cws{
-    clip-path: polygon(50% 100%, 93% 0, 7% 0);
+    -webkit-clip-path: polygon(50% 100%, 93% 0, 7% 0);
+            clip-path: polygon(50% 100%, 93% 0, 7% 0);
     width: 400px;
     height: 400px;
     left: 195px;
@@ -134,7 +157,8 @@ body {
 }
 
 #outer_iw{
-    clip-path: polygon(0 50%, 100% 93%, 100% 7%);
+    -webkit-clip-path: polygon(0 50%, 100% 93%, 100% 7%);
+            clip-path: polygon(0 50%, 100% 93%, 100% 7%);
     width: 390px;
     height: 390px;
     right: 0px;
@@ -143,7 +167,8 @@ body {
     z-index: 4;
 }
 #outer_iws{
-    clip-path: polygon(0 50%, 100% 93%, 100% 7%);
+    -webkit-clip-path: polygon(0 50%, 100% 93%, 100% 7%);
+            clip-path: polygon(0 50%, 100% 93%, 100% 7%);
     width: 400px;
     height: 400px;
     right: 0px;
@@ -186,7 +211,8 @@ body {
 }
 
 #outer_pw{
-    clip-path: polygon(50% 0, 7% 100%, 93% 100%);
+    -webkit-clip-path: polygon(50% 0, 7% 100%, 93% 100%);
+            clip-path: polygon(50% 0, 7% 100%, 93% 100%);
     width: 390px;
     height: 390px;
     left: 200px;
@@ -195,7 +221,8 @@ body {
     z-index: 4;
 }
 #outer_pws{
-    clip-path: polygon(50% 0, 7% 100%, 93% 100%);
+    -webkit-clip-path: polygon(50% 0, 7% 100%, 93% 100%);
+            clip-path: polygon(50% 0, 7% 100%, 93% 100%);
     width: 400px;
     height: 400px;
     left: 195px;
@@ -239,7 +266,8 @@ body {
 }
 
 #outer_gw{
-    clip-path: polygon(0 7%, 0 93%, 100% 50%);
+    -webkit-clip-path: polygon(0 7%, 0 93%, 100% 50%);
+            clip-path: polygon(0 7%, 0 93%, 100% 50%);
     width: 390px;
     height: 390px;
     left: 0px;
@@ -248,7 +276,8 @@ body {
     z-index: 4;
 }
 #outer_gws{
-    clip-path: polygon(0 7%, 0 93%, 100% 50%);
+    -webkit-clip-path: polygon(0 7%, 0 93%, 100% 50%);
+            clip-path: polygon(0 7%, 0 93%, 100% 50%);
     width: 400px;
     height: 400px;
     left: 0px;
